@@ -375,7 +375,6 @@
 // export default Navbar;
 
 
-
 import React, { useContext, useEffect, useState } from 'react';
 import { assets } from '../assets/assets';
 import { Link, NavLink, useLocation } from 'react-router-dom';
@@ -411,8 +410,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link
         to='/'
-        className='pl-4 text-2xl font-extrabold text-transparent sm:text-3xl bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 bg-clip-text md:pl-8 lg:pl-4'
-      >
+        className='pl-4 text-xl font-extrabold text-transparent sm:text-2xl md:text-3xl lg:text-4xl sm:text-3xl bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 bg-clip-text sm:pl-6 md:pl-8 lg:pl-4'>
         Z<span className="text-black">amman&apos;s</span> <span className="text-blue-600">Gadget</span>
       </Link>
 
@@ -515,6 +513,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
